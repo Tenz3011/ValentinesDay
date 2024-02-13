@@ -1,0 +1,72 @@
+:root{
+    --bg: linear-gradient(to bottom, #ff78ae, #ff8cba);
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: var(--bg);
+    min-height: 100vh;
+}
+
+h1{
+    color:white;
+    font-family: "cute Font";
+    font-size: 65px;
+    text-align: center;
+    transform: translateY(40px);
+    
+}
+
+h2{
+    color:white;
+    font-family: "cute Font";
+    font-size: 50px;
+    text-align: center;
+    transform: translateY(40px);
+    
+}
+
+.cat{
+    text-align: center;
+    transform: translateY(100px);
+}
+
+.valentine{
+    color:white;
+    font-family: "cute Font";
+    font-size: 50px;
+    
+}
+
+.random{
+    color:white;
+    font-size: 28px;
+    font-family: "cute Font";
+}
+
+button{
+    background-color: #ff8cba;
+    color:white;
+    border-radius: 7px;
+    font-family: "cute Font";
+    font-size:30px;
+    width: 80px;
+    height: 45px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position:relative;
+    top: 145px;
+}
+
