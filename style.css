@@ -1,6 +1,14 @@
+@font-face {
+    font-family: "cute Font";
+    src: url(cute_2/CuteFont-Regular.otf);
+}
+
 :root{
     --bg: linear-gradient(to bottom, #ff78ae, #ff8cba);
     
+}
+.border {
+    padding: 30px; 
 }
 
 *{
@@ -68,5 +76,30 @@ button{
     text-align: center;
     position:relative;
     top: 145px;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    .valentine{
+        font-size: 20px;
+    }
+
+    .random{
+        font-size: 15px;
+    }
+
+    button{
+        font-size: 15px;
+        width: 40px;
+        height: 18px;
+        border-radius: 5px;
+    }
 }
 
